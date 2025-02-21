@@ -40,9 +40,8 @@ The SQLite3 database contains a table named `students` with the following struct
 |-------------|-----------|-------------|
 | id          | INTEGER (Primary Key, Auto Increment) | Unique student ID |
 | name        | TEXT      | Student's full name |
-| age         | INTEGER   | Student's age |
-| grade       | TEXT      | Student's grade/class |
-| email       | TEXT      | Student's email (optional) |
+| course      | TEXT      | Student's course enrolled |
+| contact     | INTEGER   | Student's Contact |
 
 ## Usage
 - Run the script to start the system.
@@ -56,7 +55,7 @@ The SQLite3 database contains a table named `students` with the following struct
 - Cloud-based database integration
 
 ## License
-This project is licensed under the MIT License. Feel free to modify and distribute it.
+Feel free to modify and distribute it.
 
 ## Contact
 For queries or contributions, contact:
